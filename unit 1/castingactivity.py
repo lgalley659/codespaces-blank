@@ -1,7 +1,7 @@
 # Problem 1
 
 Name = "Lumen Galley"
-Name = "16"
+age = "16"
  
  str
 
