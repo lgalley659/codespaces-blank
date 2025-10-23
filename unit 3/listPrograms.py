@@ -17,7 +17,7 @@ def resturantMenu():
     selection = input("Please select what the time of day")
     print("1. morning")
     print("2. afternoon")
-    print("3. Night")
+    print("3. night")
     time = int(input())
     if time == "morning":
         print("Youve selected the morning menu")
@@ -30,3 +30,16 @@ def resturantMenu():
         resturantMenu()
         
 
+number = 0
+while number < 10:
+    number += 1
+    print(number)
+else:
+    print('Done counting')
+
+timer = 30
+while timer < 0: # needs to be true
+    timer -=1
+    print(timer)
+else:  # if its false we get this
+    print('Done counting down')
