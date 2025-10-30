@@ -44,3 +44,18 @@ def numberloop():
     else:
         print("You have exited the loop.")
     
+
+def numberGeussingGame():
+    correctNumber = 7
+    userGuess = int(input("Please geuss a number: "))
+    while userGeuss != correctNumber:
+            if userGuess > correctNumber:
+                print("Your geuss is too low.")
+                userGuess = int(input("Please geuss a number: "))
+            else:
+                print("Your geuss is too high.")
+                userGuess = int(input("Please geuss a number: "))
+    else:
+        print("You geussed the correct number!")
+
+numberGeussingGame()
