@@ -62,3 +62,5 @@ for student in studentBody:
     print(present)
     print('these students are absent: ')
     print(absent)
+
+
