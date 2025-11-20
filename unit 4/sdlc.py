@@ -51,5 +51,5 @@ def add():
              numX = int(input("Please type in number: "))
              sum += numX
              print(sum)
-    
+
         
