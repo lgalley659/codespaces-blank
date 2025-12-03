@@ -1,7 +1,4 @@
-# Build a Python quiz program that represents users with 5 multiple-choice questions. For each question.
-# The user should be able to input their selection from a list of options.
-# The program should keep track of their answers. Once the user answers all the questions, display the users score by showing them
-# the number of answers they got correct out of 5.
+
  
 def quiz():
     questions =
