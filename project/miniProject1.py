@@ -45,3 +45,16 @@ while True:
         break
 
 def quiz():
+
+
+#What is the use of a for loop.
+#What are pythons two primitive loop commands.
+#Lists are used to store what.
+#What are two numeric types in  python.
+
+ print("1.What is the use of a for loop")
+print("A.iterating over a sequence")
+print("B.making selections")
+print("C.run a block of code")
+print("D.stoppig loops")
+
